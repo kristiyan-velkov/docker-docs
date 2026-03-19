@@ -17,7 +17,10 @@ params:
 
 The Next.js language-specific guide shows you how to containerize a Next.js application using Docker, following best practices for creating efficient, production-ready containers.
 
-[Next.js](https://nextjs.org/) is a powerful React framework that enables server-side rendering, static site generation, and full-stack capabilities out of the box. While Next.js simplifies many aspects of web development, managing dependencies, environments, and deployments across different stages can still be complex. Docker streamlines this process by providing a consistent and containerized environment that works seamlessly from development to production.
+[Next.js](https://nextjs.org/) is a React framework that enables server-side
+rendering, static site generation, and full-stack capabilities. Docker
+provides a consistent containerized environment from development to
+production.
 
 > **Acknowledgment**
 >

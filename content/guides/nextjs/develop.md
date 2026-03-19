@@ -26,7 +26,9 @@ You'll learn how to:
 
 ## Automatically update services (Development Mode)
 
-Use Compose Watch to automatically sync source file changes into your containerized development environment. This provides a seamless, efficient development experience without needing to restart or rebuild containers manually.
+Use Compose Watch to automatically sync source file changes into your
+containerized development environment. This automatically syncs file changes
+without needing to restart or rebuild containers manually.
 
 ## Step 1: Create a development Dockerfile
 

@@ -21,7 +21,10 @@ Before you begin, make sure the following tools are installed and available on y
 
 ## Overview
 
-This guide walks you through the complete process of containerizing a Next.js application with Docker. You'll learn how to create a production-ready Docker image using best practices that improve performance, security, scalability, and deployment efficiency.
+This guide walks you through containerizing a Next.js application with Docker.
+You'll learn how to create a production-ready Docker image using best
+practices that improve performance, security, scalability, and deployment
+efficiency.
 
 By the end of this guide, you will:
 
