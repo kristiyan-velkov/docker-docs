@@ -875,7 +875,7 @@ What this command does:
 - Tags the image as nextjs-sample so you can reference it later
 
 
-#### Step 5: View local images
+### Step 5: View local images
 
 After building your Docker image, you can check which images are available on your local machine using either the Docker CLI or [Docker Desktop](/manuals/desktop/use-desktop/images.md). Since you're already working in the terminal, let's use the Docker CLI.
 

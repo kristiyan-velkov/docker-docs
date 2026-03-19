@@ -1,10 +1,12 @@
 ---
 title: Next.js language-specific guide
 linkTitle: Next.js
-description: Containerize and develop Next.js apps using Docker
-keywords: getting started, Next.js, next.js, docker, language, Dockerfile
+description: Containerize, develop, test, and deploy Next.js apps with Docker and Kubernetes
+keywords: getting started, Next.js, next.js, docker, language, Dockerfile, CI/CD, Kubernetes
 summary: |
-  This guide explains how to containerize Next.js applications using Docker.
+  This guide explains how to containerize Next.js applications, set up
+  development and testing in containers, automate builds with GitHub Actions,
+  and deploy to Kubernetes.
 toc_min: 1
 toc_max: 2
 languages: [js]
@@ -17,7 +19,6 @@ The Next.js language-specific guide shows you how to containerize a Next.js appl
 
 [Next.js](https://nextjs.org/) is a powerful React framework that enables server-side rendering, static site generation, and full-stack capabilities out of the box. While Next.js simplifies many aspects of web development, managing dependencies, environments, and deployments across different stages can still be complex. Docker streamlines this process by providing a consistent and containerized environment that works seamlessly from development to production.
 
-> 
 > **Acknowledgment**
 >
 > Docker extends its sincere gratitude to [Kristiyan Velkov](https://www.linkedin.com/in/kristiyan-velkov-763130b3/) for authoring this guide and contributing the official [Next.js Docker examples](https://github.com/vercel/next.js/tree/canary/examples/with-docker) to the Vercel Next.js repository, including the standalone and export output examples. As a Docker Captain and experienced engineer, his expertise in Docker, DevOps, and modern web development has made this resource invaluable for the community, helping developers navigate and optimize their Docker workflows.

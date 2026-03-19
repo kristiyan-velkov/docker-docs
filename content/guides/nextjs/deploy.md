@@ -1,7 +1,7 @@
 ---
 title: Test your Next.js deployment
 linkTitle: Test your deployment
-weight: 60
+weight: 70
 keywords: deploy, kubernetes, next.js
 description: Learn how to deploy locally to test and debug your Kubernetes deployment
 

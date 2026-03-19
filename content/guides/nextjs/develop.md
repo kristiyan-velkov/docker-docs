@@ -188,7 +188,8 @@ Here's what you achieved:
 - Enabled real-time file syncing using Compose Watch for a smoother development experience  
 - Verified that live updates work seamlessly by modifying and previewing a component
 
-With this setup, you're now equipped to build, run, and iterate on your Next.js app entirely within containers—efficiently and consistently across environments.
+With this setup, you can build, run, and iterate on your Next.js app
+entirely within containers across environments.
 
 ---
 

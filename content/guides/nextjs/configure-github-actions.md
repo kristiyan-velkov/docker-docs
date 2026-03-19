@@ -27,9 +27,10 @@ In this section, you'll set up a **CI/CD pipeline** using [GitHub Actions](https
 
 ---
 
-## Connect your GitHub repository to Docker Hub
+## Integrate GitHub and Docker Hub
 
-To enable GitHub Actions to build and push Docker images, you'll securely store your Docker Hub credentials in your new GitHub repository.
+To enable GitHub Actions to build and push Docker images, you'll securely
+store your Docker Hub credentials in your new GitHub repository.
 
 ### Step 1: Connect your GitHub repository to Docker Hub
 
@@ -61,7 +62,8 @@ To enable GitHub Actions to build and push Docker images, you'll securely store 
    | `DOCKERHUB_TOKEN` | Your Docker Hub access token (created in Step 1)   |
    | `DOCKERHUB_PROJECT_NAME` | Your Docker Project Name (created in Step 2)   |
 
-   These secrets let GitHub Actions to authenticate securely with Docker Hub during automated workflows.
+   These secrets let GitHub Actions authenticate securely with Docker Hub
+   during automated workflows.
 
 5. Connect Your Local Project to GitHub
 
@@ -285,7 +287,7 @@ After you've added your workflow file, it's time to trigger and observe the CI/C
 > [!TIP] Protect your main branch
 > To maintain code quality and prevent accidental direct pushes, enable branch protection rules:
 >  - Navigate to your **GitHub repo → Settings → Branches**.
->  - Under Branch protection rules, click **Add rule**.
+>  - Under Branch protection rules, select **Add rule**.
 >  - Specify `main` as the branch name.
 >  - Enable options like:
 >     - *Require a pull request before merging*.
