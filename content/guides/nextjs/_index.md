@@ -1,5 +1,5 @@
 ---
-title: Next.js language-specific guide
+title: Containerize a Next.js application
 linkTitle: Next.js
 description: Containerize, develop, test, and deploy Next.js apps with Docker and Kubernetes
 keywords: getting started, Next.js, next.js, docker, language, Dockerfile, CI/CD, Kubernetes
