@@ -15,7 +15,7 @@ params:
   time: 20 minutes
 ---
 
-The Next.js language-specific guide shows you how to containerize a Next.js application using Docker, following best practices for creating efficient, production-ready containers.
+This guide shows you how to containerize a Next.js application using Docker, following best practices for creating efficient, production-ready containers.
 
 [Next.js](https://nextjs.org/) is a React framework that enables server-side
 rendering, static site generation, and full-stack capabilities. Docker
