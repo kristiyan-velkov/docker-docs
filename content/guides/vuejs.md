@@ -186,7 +186,7 @@ Create a file named `Dockerfile` with the following contents:
 # =========================================
 # Stage 1: Build the Vue.js Application
 # =========================================
-ARG NODE_VERSION=24.12.0-alpine
+ARG NODE_VERSION=24.22.1-alpine
 ARG NGINX_VERSION=alpine3.22
 
 # Use a lightweight Node.js image for building (customizable via ARG)
@@ -571,7 +571,7 @@ Create a file named `Dockerfile.dev` in your project root with the following con
 # =========================================
 # Stage 1: Develop the Vue.js Application
 # =========================================
-ARG NODE_VERSION=24.12.0-alpine
+ARG NODE_VERSION=24.22.1-alpine
 
 # Use a lightweight Node.js image for development
 FROM node:${NODE_VERSION} AS dev

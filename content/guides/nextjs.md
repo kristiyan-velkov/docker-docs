@@ -275,7 +275,7 @@ Create a file named `Dockerfile` with the following contents (uses `node`):
   # Stage 1: Dependencies Installation Stage
   # ============================================
 
-  ARG NODE_VERSION=24.14.0-slim
+  ARG NODE_VERSION=24.22.1-slim
 
   FROM node:${NODE_VERSION} AS dependencies
 
@@ -542,7 +542,7 @@ Create a file named `Dockerfile` with the following contents (uses `node` and `n
 # Stage 1: Dependencies Installation Stage
 # ============================================
 
-ARG NODE_VERSION=24.14.0-slim
+ARG NODE_VERSION=24.22.1-slim
 ARG NGINXINC_IMAGE_TAG=alpine3.22
 
 FROM node:${NODE_VERSION} AS dependencies
@@ -1008,7 +1008,7 @@ Create a file named `Dockerfile.dev` in your project root with the following con
 # ============================================
 # Development Dockerfile for Next.js
 # ============================================
-ARG NODE_VERSION=24.14.0-slim
+ARG NODE_VERSION=24.22.1-slim
 
 FROM node:${NODE_VERSION} AS dev
 

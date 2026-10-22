@@ -180,7 +180,7 @@ Create a file named `Dockerfile` with the following contents:
 # =========================================
 # Stage 1: Build the Angular Application
 # =========================================
-ARG NODE_VERSION=24.12.0-alpine
+ARG NODE_VERSION=24.22.1-alpine
 ARG NGINX_VERSION=alpine3.22
 
 # Use a lightweight Node.js image for building (customizable via ARG)
@@ -568,7 +568,7 @@ Create a file named `Dockerfile.dev` in your project root with the following con
 # =========================================
 
 # Define the Node.js version to use (Alpine for a small footprint)
-ARG NODE_VERSION=24.12.0-alpine
+ARG NODE_VERSION=24.22.1-alpine
 
 # Set the base image for development
 FROM node:${NODE_VERSION} AS dev
